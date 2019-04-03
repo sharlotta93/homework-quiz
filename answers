@@ -1,0 +1,14 @@
+Polymorphism
+
+	1.	What does the word 'polymorphism' mean? Poly means many morph to change shape so polymorphism means to be able to change shape or adapt new forms.
+ 
+	3.	What does it mean when we apply polymorphism to OO design? Give a simple Java example. When using inheritance we can create a super class of house, children of the class house for example bungalow can be treated either as house or as a bungalow. Same thing can happen when applying interfaces. 
+	4.	What can we use to implement polymorphism in Java? Inheritance, interfaces and composition.
+	5.	How many 'forms' can an object take when using polymorphism? with inheritance only one more but with interfaces as many forms can be applied as we like.
+	6.	Give an example of when you could use polymorphism. If we want to create a garage (an array) full of different vehicles we can do so by either using inheritance or applying interface to each class. 
+
+Composition
+	6.	What do we mean by 'composition' in reference to object-oriented programming? Composition is the design technique to implement has-a relationship in classes. 
+	7.	When would you use composition? Provide a simple example in Java. If you are looking for code reuse and the relationship between two classes is has-a then you should use composition rather than inheritance.
+	8.	What is/are the advantage(s) of using composition?  Benefit of using composition in java is that we can control the visibility of other object to client classes and reuse only what we need.
+	9.	When an object is destroyed, what happens to all the objects it is composed of? they get destroyed as well. 
